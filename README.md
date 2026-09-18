@@ -74,10 +74,9 @@ The project was developed as a functional prototype to demonstrate the viability
 ```
 community-watch/
 ├── backend/
-├── frontend/
 ├── server.js
 ├── package.json
-└── ...
+└── app
 ```
 
 The frontend and backend are started together through the root `server.js` entry point.
