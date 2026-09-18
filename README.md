@@ -112,11 +112,9 @@ DATABASE_URL=your_database_url
 JWT_SECRET=your_jwt_secret
 ```
 
-Add any other environment variables required by the application.
-
 ### Database
 
-Create a PostgreSQL database and configure `DATABASE_URL`.
+Create a PostgreSQL database "community_watch" and configure `DATABASE_URL`.
 
 Run the project's Drizzle migrations against the configured database.
 
@@ -145,6 +143,7 @@ The current implementation focuses on demonstrating the core reporting workflow 
 - **Dynamic Timeline & Activity Feed:** Real-time updates for status transitions and activity logging.
 - **Role-Based Updates:** Admin and officer updates with automated activity logging and user notifications.
 - **Interactive Discussions:** Post comments directly on specific issue threads.
+- **Language Switcher:** PCurrently only supports English and French for demo purposes
 
 Potential future development includes:
 
@@ -156,6 +155,7 @@ Potential future development includes:
 - Additional moderation and administrative capabilities
 - Production-grade password recovery and account security
 - Deployment and infrastructure hardening
+- More languages in "translations/index.ts" where needed
 
 ## Future Development
 
